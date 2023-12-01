@@ -13,7 +13,7 @@ html{
     height: 100%;
     display: grid;
     grid-template-rows:6% 84% 10% ;
-    background-image: url(./image/3235319.jpg);
+    background-image: url(../image/3235319.jpg);
     background-position: 2%;
      
 }
