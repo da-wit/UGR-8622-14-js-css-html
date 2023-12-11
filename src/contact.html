@@ -7,30 +7,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="contact_body">
-    <header>
-        <nav>
-            <ul>
-                <li class="logo"><img src="https://th.bing.com/th/id/OIP.cF-R8IXSTnyXbbemr5Kd3gAAAA?w=360&h=360&rs=1&pid=ImgDetMain" alt="LOGO" class="logoimg"></li>
-                <li class="li1"><a href="home.html">HOME</a></li>
-                <li class="li2"><a href="about.html">ABOUT</a></li>
-                <li class="li3"><a href="skill.html">SKILL</a></li>
-                <li class="li4"><a href="projects.html">PROJECTS</a></li>
-                <li class="li5"><a href="contact.html">CONTACT</a></li>
+<body class="contact-body">
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li calss="header__item" ><img class="header--img" src="https://th.bing.com/th/id/OIP.cF-R8IXSTnyXbbemr5Kd3gAAAA?w=360&h=360&rs=1&pid=ImgDetMain" alt="LOGO" class="logoimg"></li>
+                <li class="header__item"><a class="header--link" href="home.html">HOME</a></li>
+                <li class="header__item"><a class="header--link" href="about.html">ABOUT</a></li>
+                <li class="header__item"><a class="header--link" href="skill.html">SKILL</a></li>
+                <li class="header__item"><a class="header--link" href="projects.html">PROJECTS</a></li>
+                <li class="header__item"><a class="header--link" href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
     </header>
-    <main class="contact_main">
-        <div>
-            <h2>Contact me</h2>
-            <address>
+    <main class="contact-main">
+        <div class="contact-main__div">
+            <h2 class="contact-main-div__head">Contact me</h2>
+            <address class="contact-main-div__address">
                 <i class="fas fa-location"></i> ADDIS ABABA<br>
                 <i class="fa-solid fa-phone"></i> +251 954956011<br>
                 <i class="fa-solid fa-envelope"></i>dawitaby1@gmail.com
             </address>
         </div>
 
-        <form>
+        <form class="contact-main__form">
             <label class="name" for="name" >name</label>
             <input type="text" id="name" name="name"  ><br>
             <label class="email">Email</label>
@@ -43,15 +43,17 @@
         </form>
     </main>
 
-    <footer>
-        <div>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-telegram"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+    <footer class="footer">
+        <div class="footer__div">
+            <a class="footer--link" href=""><i class="fa-brands fa-facebook"></i></a>
+            <a class="footer--link" href=""><i class="fa-brands fa-instagram"></i></a>
+            <a class="footer--link" href=""><i class="fa-brands fa-telegram"></i></a>
+            <a class="footer--link" href=""><i class="fa-brands fa-twitter"></i></a>
+            <a class="footer--link" href=""><i class="fa-brands fa-whatsapp"></i></a>
+            
         </div>
-        <p>Copyright &copy; reserved </p>
+        <p class="footer__desc">Copyright &copy; reserved </p>
+        
     </footer>
 </body>
 </html>
