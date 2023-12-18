@@ -11,15 +11,27 @@
     <header class="header">
         <nav class="header__nav">
             <ul class="header__list">
-                <li  ><img class="header--img" src="https://th.bing.com/th/id/OIP.cF-R8IXSTnyXbbemr5Kd3gAAAA?w=360&h=360&rs=1&pid=ImgDetMain" alt="LOGO" ></li>
+                <li ><img class="header--img" src="https://th.bing.com/th/id/OIP.cF-R8IXSTnyXbbemr5Kd3gAAAA?w=360&h=360&rs=1&pid=ImgDetMain" alt="LOGO" ></li>
                 <li class="header__item"><a class="header--link" href="home.html">HOME</a></li>
                 <li class="header__item"><a class="header--link" href="about.html">ABOUT</a></li>
                 <li class="header__item"><a class="header--link" href="skill.html">SKILL</a></li>
                 <li class="header__item"><a class="header--link" href="projects.html">PROJECTS</a></li>
                 <li class="header__item"><a class="header--link" href="contact.html">CONTACT</a></li>
+                <li onclick=showSidebar() class="header--item"><i class="fa-solid fa-bars"></i></li>
             </ul>
+            <ul class="sidebar">
+                <li onclick=hideSidebar() class="item-1"><i class="fa-solid fa-bars"></i></li>
+                <li class="item"><a class="header--link" href="home.html">HOME</a></li>
+                <li class="item"><a class="header--link" href="about.html">ABOUT</a></li>
+                <li class="item"><a class="header--link" href="skill.html">SKILL</a></li>
+                <li class="item"><a class="header--link" href="projects.html">PROJECTS</a></li>
+                <li class="item"><a class="header--link" href="contact.html">CONTACT</a></li>
+            </ul>
+
+            
         </nav>
     </header>
+    
     <main class="contact-main">
         <div class="contact-main__div">
             <h2 class="contact-main-div__head">Contact me</h2>
@@ -55,5 +67,6 @@
         <p class="footer__desc">Copyright &copy; reserved </p>
         
     </footer>
+    <script src="./js/header.js"></script>
 </body>
 </html>

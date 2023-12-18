@@ -19,9 +19,21 @@
                 <li class="header__item"><a class="header--link" href="skill.html">SKILL</a></li>
                 <li class="header__item"><a class="header--link" href="projects.html">PROJECTS</a></li>
                 <li class="header__item"><a class="header--link" href="contact.html">CONTACT</a></li>
+                <li onclick=showSidebar() class="header--item"><i class="fa-solid fa-bars"></i></li>
             </ul>
+            <ul class="sidebar">
+                <li onclick=hideSidebar() class="item-1"><i class="fa-solid fa-bars"></i></li>
+                <li class="item"><a class="header--link" href="home.html">HOME</a></li>
+                <li class="item"><a class="header--link" href="about.html">ABOUT</a></li>
+                <li class="item"><a class="header--link" href="skill.html">SKILL</a></li>
+                <li class="item"><a class="header--link" href="projects.html">PROJECTS</a></li>
+                <li class="item"><a class="header--link" href="contact.html">CONTACT</a></li>
+            </ul>
+
+            
         </nav>
     </header>
+    
     <main class="skill__main">
         <section class="skill__main__section1">
             <h1 class="skill__main__section1__topic">Techinical skills</h1>
@@ -65,6 +77,6 @@
         <p class="footer__desc">Copyright &copy; reserved </p>
         
     </footer>
-    
+    <script src="./js/header.js"></script>
 </body>
 </html>
