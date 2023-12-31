@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="contact-body">
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li ><img class="header--img" src="https://th.bing.com/th/id/OIP.cF-R8IXSTnyXbbemr5Kd3gAAAA?w=360&h=360&rs=1&pid=ImgDetMain" alt="LOGO" ></li>
+                <li class="header__item"><a class="header--link" href="home.html">HOME</a></li>
+                <li class="header__item"><a class="header--link" href="about.html">ABOUT</a></li>
+                <li class="header__item"><a class="header--link" href="skill.html">SKILL</a></li>
+                <li class="header__item"><a class="header--link" href="projects.html">PROJECTS</a></li>
+                <li class="header__item"><a class="header--link" href="contact.html">CONTACT</a></li>
+                <li onclick=showSidebar() class="header--item"><i class="fa-solid fa-bars"></i></li>
+            </ul>
+            <ul class="sidebar">
+                <li onclick=hideSidebar() class="item-1"><i class="fa-solid fa-bars"></i></li>
+                <li class="item"><a class="header--link" href="home.html">HOME</a></li>
+                <li class="item"><a class="header--link" href="about.html">ABOUT</a></li>
+                <li class="item"><a class="header--link" href="skill.html">SKILL</a></li>
+                <li class="item"><a class="header--link" href="projects.html">PROJECTS</a></li>
+                <li class="item"><a class="header--link" href="contact.html">CONTACT</a></li>
+            </ul>
+
+            
+        </nav>
+    </header>
+    
+    <main class="contact-main">
+        <div class="contact-main__div">
+            <h2 class="contact-main-div__head">Contact me</h2>
+            <address class="contact-main-div__address">
+                <i class="fas fa-location"></i> ADDIS ABABA<br>
+                <i class="fa-solid fa-phone"></i> +251 954956011<br>
+                <i class="fa-solid fa-envelope"></i>dawitaby1@gmail.com
+            </address>
+        </div>
+
+        <form class="contact-main__form">
+            <label class="name" for="name" >name</label>
+            <input type="text" id="name" name="name"  ><br>
+            <label class="email">Email</label>
+            <input type="email" id="email" name="email"><br>
+            <label class="subject" for="subject">subject</label>
+            <input type="text" id="subject" name="subject" ><br>
+            <label class="message">message</label>
+            <input type="text" id="message" name="message" ><br>
+            <input type="submit" class="submit">
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__div">
+            <a class="footer--link" href=""><i class="fa-brands fa-facebook"></i></a>
+            <a class="footer--link" href=""><i class="fa-brands fa-instagram"></i></a>
+            <a class="footer--link" href=""><i class="fa-brands fa-telegram"></i></a>
+            <a class="footer--link" href=""><i class="fa-brands fa-twitter"></i></a>
+            <a class="footer--link" href=""><i class="fa-brands fa-whatsapp"></i></a>
+            
+        </div>
+        <p class="footer__desc">Copyright &copy; reserved </p>
+        
+    </footer>
+    <script src="./js/header.js"></script>
+</body>
+</html>
